@@ -15,3 +15,6 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+
+# Docs said to add this to make it work locally
+gem "webrick"
