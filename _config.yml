@@ -80,11 +80,12 @@ footer:
 comments:
   provider: "giscus"
   giscus:
+    repo: "jjtech0130/blog"
     repo_id: "R_kgDOHvfM4g" # Shown during giscus setup at https://giscus.app
     category_name: "Comments" # Full text name of the category
     category_id: "DIC_kwDOHvfM4s4CQh2k" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" #(default), "url", "title", "og:title"
-    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
     theme: "light"
 
 defaults:
