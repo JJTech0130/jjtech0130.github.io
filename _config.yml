@@ -13,14 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Verbose Ramblings
+#subtitle: subtitle
+name: JJTech
 email: jjtech@jjtech.dev
 description: >- # this means to ignore newlines until "baseurl:"
  A personal blog where I write about things that interest me,
  and my current projects.
 #twitter_username: username
 github_username: JJTech0130
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -74,6 +77,16 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JJTech0130"
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: R_kgDOHvfM4g # Shown during giscus setup at https://giscus.app
+    category_name: Comments # Full text name of the category
+    category_id: DIC_kwDOHvfM4s4CQh2k # Shown during giscus setup at https://giscus.app
+    #discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    #reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    #theme   
+
 defaults:
   # _posts
   - scope:
@@ -83,7 +96,12 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments:
+        provider: "giscus"
+        giscus:
+          repo_id: R_kgDOHvfM4g # Shown during giscus setup at https://giscus.app
+          category_name: Comments # Full text name of the category
+          category_id: DIC_kwDOHvfM4s4CQh2k # Shown during giscus setup at https://giscus.app
       share: true
       related: true
   # _pages
