@@ -46,7 +46,7 @@ author:
       icon: "fab fa-fw fa-discord"
       url: "https://discord.com/users/672897428470366208"
     - label: Email
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:jjtech@jjtech.dev"
 
 footer:
