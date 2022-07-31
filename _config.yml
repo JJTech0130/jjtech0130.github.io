@@ -62,6 +62,7 @@ comments:
     category_name: "Comments" # Full text name of the category
     category_id: "DIC_kwDOHvfM4s4CQh2k" # Shown during giscus setup at https://giscus.app
     discussion_term: "title"
+    reactions_enabled: '0'
 
 defaults:
   # _posts
