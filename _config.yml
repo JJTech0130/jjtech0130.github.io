@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  A personal blog where I write about things that interest me,
  and my current projects.
 
-repository: "JJTech0130/blog" # for giscus and NWO
+repository: "JJTech0130/jjtech0130.github.io" # for giscus and NWO
 logo: &logo "/assets/images/jjtech.jpeg"
 
 name: &author JJTech
