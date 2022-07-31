@@ -1,13 +1,18 @@
-title: Verbose Ramblings
-#subtitle: subtitle
-name: JJTech
-email: jjtech@jjtech.dev
+# Title & stuff
+title: JJTech
+subtitle: "Focus? What's that?"
 description: >- # this means to ignore newlines until "baseurl:"
  A personal blog where I write about things that interest me,
  and my current projects.
-github_username: JJTech0130
-minimal_mistakes_skin: air
-search: true
+
+repository: "JJTech0130/blog" # for giscus and NWO
+logo: &logo "/assets/images/jjtech.jpeg"
+
+name: &author JJTech
+
+# DEV ONLY
+#url: http://localhost:4000
+#baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -16,7 +21,6 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -31,32 +35,30 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "JJTech"
-  avatar : "/assets/images/5340FAF3-73A0-4263-9BE0-A4142214F764.jpeg"
+  name   : *author
+  avatar : *logo
   bio    : "10th grade student learning many different languages and technologies"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jjtech.dev"
-    - label: "GitHub"
+  links: &links
+    - label: GitHub
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JJTech0130"
+    - label: Discord
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.com/users/672897428470366208"
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/JJTech0130"
+  links: *links
 
-repository: "JJTech0130/blog"
+minimal_mistakes_skin: air
+search: true
+
 comments:
   provider: "giscus"
   giscus:
-    repo: "JJTech0130/blog"
     repo_id: "R_kgDOHvfM4g" # Shown during giscus setup at https://giscus.app
     category_name: "Comments" # Full text name of the category
     category_id: "DIC_kwDOHvfM4s4CQh2k" # Shown during giscus setup at https://giscus.app
-    discussion_term: "title" #(default), "url", "title", "og:title"
+    discussion_term: "title"
 
 defaults:
   # _posts
@@ -68,7 +70,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
       related: true
   # _pages
   - scope:
