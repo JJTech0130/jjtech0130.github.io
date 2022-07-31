@@ -4,4 +4,4 @@ main:
   - title: "About"
     url: /about/
   - title: "Apps"
-    url: "https://jjtech.dev/apps"
+    url: /apps/
