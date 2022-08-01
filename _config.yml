@@ -10,10 +10,6 @@ logo: &logo "/assets/images/jjtech.jpeg"
 
 name: &author JJTech
 
-# DEV ONLY
-#url: http://localhost:4000
-#baseurl: ""
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
