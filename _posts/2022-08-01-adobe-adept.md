@@ -69,9 +69,13 @@ MIIEYDCCA0igAwIBAgIER2q5eTANBgkqhkiG9w0BAQUFADCBhDELMAkGA1UEBhMCVVMxIzAhBgNVBAoT
 
 In order to securly send the Authentication and License keypairs to Adobe, we must encrypt their private keys.
 
-One must first export the private key as **PKCS#8**, then encrypt it with `AES-128-CBC`, and then base64 encoded.
+1. Export the private key as **PKCS#8**
 
-For the public keys, simply export them as PKCS#1, then base64 encode them.
+2. Encrypt the exported data with the Device Key using `AES-128-CBC`
+
+3. Base64-encode the result
+
+For the public keys, all you need to do is export them as plain PKCS#1 keys, and then Base64-encode them.
 
 #### Sending the Sign-in Request
 
