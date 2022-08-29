@@ -11,6 +11,10 @@ These apps all use ad-hoc signing for specific device IDs. This means that they 
 + [Delta](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/delta.plist)
 + [PokeMMO](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/pokemmo.plist)
 + [DolphiniOS](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/dolphin.plist)
++ [Jitterbug](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/jitterbug.plist)
++ [RetroArch](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/retroarch.plist)
++ [Flycast](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/flycast.plist)
++ [Provenance](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/provenance.plist)
 
 <!--
 Experimental (Report problems, not signed for everyone yet):
