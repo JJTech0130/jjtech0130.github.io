@@ -16,6 +16,7 @@ These apps all use ad-hoc signing for specific device IDs. This means that they 
 + [Flycast](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/flycast.plist)
 + [Provenance](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/provenance.plist)
 + [Spotify++](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/spotifypp.plist)
++ [uYou+](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/uyou.plist)
 
 <!--
 Experimental (Report problems, not signed for everyone yet):
