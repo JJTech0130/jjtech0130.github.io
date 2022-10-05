@@ -1,6 +1,7 @@
 ---
 permalink: /apps/
 title: "Apps"
+excerpt: "Download iOS apps signed by JJTech"
 ---
 
 This is a download page for various apps I make available to my friends.
