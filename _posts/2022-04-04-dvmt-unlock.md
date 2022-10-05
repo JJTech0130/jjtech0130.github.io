@@ -91,5 +91,5 @@ The DVMT value should be modifed now. Not sure how to verify it, other than tryi
 If something isn’t clear, leave a comment.
 
 Sources:
- + https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually
- + https://www.reddit.com/r/hackintosh/comments/hz2rtm/cfg_lockunlocking_alternative_method/
+ + [OpenCore Post-Install Guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually)
+ + [CFG Lock unlocking](https://www.reddit.com/r/hackintosh/comments/hz2rtm/cfg_lockunlocking_alternative_method/)
