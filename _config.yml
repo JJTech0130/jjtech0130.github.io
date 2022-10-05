@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-seo-tag
+  #- jekyll-seo-tag
 
 author:
   name   : *author
