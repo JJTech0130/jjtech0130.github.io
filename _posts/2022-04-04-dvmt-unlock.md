@@ -1,14 +1,43 @@
 ---
-title: "DVMT Unlock BIOS mod"
+title: "Modding hidden Insyde BIOS options"
 tag: "OpenCore"
 ---
-> This tutorial was originally posted [here](https://gist.github.com/JJTech0130/bd9564858e4cd4f7d94ea4b4657660e2)
 
-> **WARNING:** BIOS modding can be dangerous. You run the risk of *bricking your device*. I am not responsible for broken devices.
+This tutorial was originally posted by me [as a Gist](https://gist.github.com/JJTech0130/bd9564858e4cd4f7d94ea4b4657660e2).
+It is modified from a tutorial I found [on Reddit](https://www.reddit.com/r/hackintosh/comments/hz2rtm/cfg_lockunlocking_alternative_method/).
+{: .notice}
 
-> This tutorial was created for my HP Pavilion 15 laptop. I *cannot confirm* that this works on any other devices.
+**Warning:** BIOS modding can be dangerous. You run the risk of *bricking your device*. I am not responsible for broken devices.
+{: .notice--warning}
 
-***
+**Note:** I tested this procedure on my HP Pavilion 15 cs3065cl, running Insyde F.16 Rev.A
+{: .notice--info}
+
+# Finding variables
+The first thing we need to do is find the variable we want to change.
+
+Let's clear up some terms we're going to use.
+
+### Terminology
+Variable Store (varstore)
+: a block of memory that contains the current values of variables
+Offset
+: the offset within the varstore where the variable is located
+Possible Values
+: these are the possible values that a variable can be set to
+
+**Note:** In this guide, I'm going to specifically mention finding the variable to control "DVMT pre-allocation". However, it's a generic process, any you should be able to follow along by substituting "DVMT pre-alloc" with whatever variable you want to change.
+{: .notice--info}
+
+### Extracting information
+We can extract all the information we need from the BIOS update provided on the manufacture's website.
+
+#### Extracting the `.bin` file from the updater
+Some manufactures package BIOS updates into self-contained executables. Luckily, most of them have an option to "extract BIOS update" into a file when you run it.
+{: .notice--warning}
+
+(Rewrite in progress)
+
 
 ## Finding variable
 We need to find the offset, varstore, and possible values for the DVMT pre-alloc.
