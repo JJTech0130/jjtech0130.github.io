@@ -13,7 +13,7 @@ These apps all use ad-hoc signing for specific device IDs. This means that they 
 + [PokeMMO](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/pokemmo.plist)
 + [DolphiniOS](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/dolphin.plist)
 + [Jitterbug](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/jitterbug.plist)
-+ [RetroArch](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/retroarch.plist)
++ [Enmity](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/enmity.plist)
 + [Flycast](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/flycast.plist)
 + [Provenance](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/provenance.plist)
 + [Spotify++](itms-services://?action=download-manifest&url=https://jjtech.dev/repo/spotifypp.plist)
