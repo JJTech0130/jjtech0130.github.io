@@ -29,8 +29,8 @@ Here's an inexhaustive list:
 So, the iMessage protocol. Here's what happens when a device is first setting up:
 1. The device asks Albert for a "push certificate". Basically, it uses a key obfuscated in the binary itself to prove to Albert that this is "legitimate Apple software". [I defeated this about 2 weeks ago](https://gist.github.com/JJTech0130/647705a968fe0f9d1633c32a6c5a8c8d).
 2. The device connects to Apple Push Notification Service using the aformentioned push certificate. It receieves a "push token" which allows notifications to be routed to it.
-3. The device uses Grand Slam Authentication to authenticate the user's Apple ID and recieves a token. [I wrote something for this last year](https://github.com/JJTech0130/grandslam).
-4. The device somehow transforms the GrandSlam token into an IDS "authentication token" token. **Still looking into this**
+3. The device uses Grand Slam Authentication to authenticate the user's Apple ID and recieves a "Password Equivalent Token (PET)". [I wrote something for this last year](https://github.com/JJTech0130/grandslam).
+4. The device makes a request to the iCloud Setup server to exchange the PET for an IDS "authentication token". 
 5. The device uses the IDS "authentication token" to recieve an "authentication certificate" for the user's account.
 6. The device sends a registration request to IDS (signed by both the "authentication certificate" and the "push certificate") containing its new public keys and other public information. In exchange, it recieves an "IDS certificate" which it can then use to perform lookup requests. Additionally, this information is public and can be looked up by other users.
 
