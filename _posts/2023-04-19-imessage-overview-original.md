@@ -1,9 +1,9 @@
 ---
-title: "iMessage Overview"
+title: "iMessage Overview (Original)"
 category: "reverse-engineering"
 tags: iMessage Apple
+hidden: true
 ---
-
 My project right now is reverse engineering iMessage. And I don't mean like a half usable POC that only works with Macs. I mean the real thing: a fully open demo that can run on any computer.
 
 Sounds far-fetched? It really isn't. When you get down to it, iMessage isn't that complex. I should be able to get it working soon! *knocks on wood*

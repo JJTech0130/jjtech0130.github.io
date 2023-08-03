@@ -29,6 +29,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
+
   #- jekyll-seo-tag
 
 author:
