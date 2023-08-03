@@ -7,7 +7,7 @@ redirect_from:
   - /imessage
 ---
 
-This blog post is going to be a deep dive into the internals of iMessage, as I've discovered during my work on [`pypush`](https://github.com/JJTech0130/pypush), an open source project that reimplements iMessage.
+This blog post is going to be a cursory overview of the internals iMessage, as I've discovered during my work on [`pypush`](https://github.com/JJTech0130/pypush), an open source project that reimplements iMessage.
 
 I gloss over specific technical details in the pursuit of brevity and clarity. If you would like to see how things are specifically implemented, check out the [`pypush` repository](https://github.com/JJTech0130/pypush) as I mentioned above. It's a pretty cool project, if I do say so myself. Make sure to check it out!
 
