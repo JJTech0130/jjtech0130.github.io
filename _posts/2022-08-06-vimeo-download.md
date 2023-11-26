@@ -2,6 +2,7 @@
 title: "Downloading Vimeo videos"
 category: "reverse-engineering"
 tags: web download video
+hidden: true
 ---
 
 So, if you saw my previous blog post, you know about how I wanted to download chapel videos from COTW.
