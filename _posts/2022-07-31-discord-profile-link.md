@@ -1,6 +1,7 @@
 ---
 title: "Sending a link to a Discord Profile"
 tag: Discord
+hidden: true
 ---
 
 Sometimes, you want to include your Discord somewhere. You might want to link to it on your website, or on a social network, or even in a QR code. The problem, however, is that it's not completely obvious how to do so.
