@@ -2,6 +2,7 @@
 title: "Camp-of-the-Woods Streaming"
 category: "reverse-engineering"
 tags: web streaming
+hidden: true
 ---
 
 Camp-of-the-Woods (COTW) is a family resort up in the Adirondacks. This post is about their various streams and videos, and how one might make the best use of them.
