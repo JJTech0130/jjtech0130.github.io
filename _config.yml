@@ -1,7 +1,7 @@
 # Title & stuff
 title: JJTech
-subtitle: "Focus? What's that?"
-description: >- # this means to ignore newlines until "baseurl:"
+subtitle: "Engineering, in Reverse"
+description: >-
  A personal blog where I write about things that interest me,
  and my current projects.
 
@@ -36,7 +36,7 @@ plugins:
 author:
   name   : *author
   avatar : *logo
-  bio    : "High school student learning many different languages and technologies"
+  bio    : "Reverse Engineer, Student"
   links: &links
     - label: GitHub
       icon: "fab fa-fw fa-github"
@@ -44,6 +44,9 @@ author:
     - label: Mastodon
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@jjtech"
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jjtech0130"
     - label: Discord
       icon: "fab fa-fw fa-discord"
       url: "https://discord.com/users/672897428470366208"
